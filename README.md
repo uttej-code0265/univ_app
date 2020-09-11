@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a university application where students have an option to enroll in courses provided by university,students can enroll in many courses too. Authentication System is also provided.
 
-Things you may want to cover:
 
-* Ruby version
+* Ruby version :- ruby 2.6.6
 
-* System dependencies
+* Rails version :- Rails 5.1.7
 
-* Configuration
+* additional gems used :-
+    gem 'jbuilder', '~> 2.5'
+    gem 'materialize-sass', '~> 1.0.0'
+    gem 'material_icons'
+    gem 'jquery-rails'
+    gem 'bcrypt', '~> 3.1.7'
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Authentication system includes sessions controller and require student email and password for login the password entered by the student matches with the hashed version of original password and if it matches we can start session with this student 
